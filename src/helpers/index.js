@@ -1,0 +1,16 @@
+export {
+  create,
+  createGlobalRegion,
+  createRegionFromDefinition,
+  extractETag,
+  isEmptyGlobalRegion,
+  extractGlobalRegions,
+  getGlobalRegionsSettings,
+  normalize,
+  normalizeGlobalRegion,
+  normalizeGlobalRegions,
+  normalizeRegionDefinitions,
+  resolve,
+  resolveGlobalRegion,
+  resolveGlobalRegionName,
+} from "./globalRegions";
