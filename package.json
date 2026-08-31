@@ -1,5 +1,5 @@
 {
-  "name": "@global-regions/volto-global-regions",
+  "name": "volto-global-regions",
   "version": "0.1.0",
   "description": "Generic global block regions for Volto 18",
   "license": "MIT",

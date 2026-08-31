@@ -51,8 +51,7 @@ the project package manager, then ensure its dependencies are installed.
 The package has peer dependencies on `@plone/volto`, `react`,
 `react-dom`, and `react-redux`; the consuming Volto project supplies them.
 
-The backend companion must be installed on the Plone Site and expose its
-`global_regions` field through the standard REST API.
+This add-on requires the [Global Regions Backend](https://github.com/henriquesaenger/Global-Regions-Backend) add-on to be installed on the Plone Site. The backend exposes the `global_regions` field through the standard Plone REST API.
 
 ## Configure Volto
 
