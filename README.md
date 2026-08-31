@@ -42,7 +42,7 @@ not prescribed by this package.
 Install the package in the Volto project:
 
 ```shell
-pnpm add @global-regions/volto-global-regions
+pnpm add volto-global-regions
 ```
 
 For a local checkout in a Volto monorepo, add it as a workspace package using
@@ -58,7 +58,7 @@ This add-on requires the [Global Regions Backend](https://github.com/henriquesae
 Apply the add-on configuration in the Volto configuration pipeline:
 
 ```js
-import { configureGlobalRegions } from "@global-regions/volto-global-regions";
+import { configureGlobalRegions } from "volto-global-regions";
 
 export default function applyConfig(config) {
   return configureGlobalRegions(config, {
@@ -146,7 +146,7 @@ render a region where the theme needs it:
 import {
   GlobalBlocksRegion,
   GlobalRegionsProvider,
-} from "@global-regions/volto-global-regions";
+} from "volto-global-regions";
 
 export function Layout() {
   return (
@@ -183,7 +183,7 @@ region name and definition.
 Use the context to begin or cancel editing:
 
 ```jsx
-import { useGlobalRegions } from "@global-regions/volto-global-regions";
+import { useGlobalRegions } from "volto-global-regions";
 
 function EditRegionButton() {
   const { beginEditing, cancelEditing, editingRegion } = useGlobalRegions();
